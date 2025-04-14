@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\kaludayk\OneDrive - Capgemini\Documents\A5 hackathob\FlipKart\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 2 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="BookingCancellation.BookingCancellation" class="method navigator-link" hash-for-method="clicks_cancelReservation_button">clicks_cancelReservation_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="BookingCancellation.BookingCancellation" class="method navigator-link" hash-for-method="displayed_with_cancelled_message">displayed_with_cancelled_message</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Passengers_details.PassengersDetails" class="method navigator-link" hash-for-method="clicks_login_button">clicks_login_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Passengers_details.PassengersDetails" class="method navigator-link" hash-for-method="clicks_login_button">clicks_login_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Payment_Portal.Paymentportal" class="method navigator-link" hash-for-method="clicks_pay_button">clicks_pay_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Payment_Portal.Paymentportal" class="method navigator-link" hash-for-method="clicks_pay_button">clicks_pay_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Payment_Portal.Paymentportal" class="method navigator-link" hash-for-method="displayed_with_thankyou_message">displayed_with_thankyou_message</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Payment_Portal.Paymentportal" class="method navigator-link" hash-for-method="displayed_with_thankyou_message">displayed_with_thankyou_message</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Passengers_details.PassengersDetails" class="method navigator-link" hash-for-method="enters_number_and_password">enters_number_and_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Passengers_details.PassengersDetails" class="method navigator-link" hash-for-method="enters_number_and_password">enters_number_and_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="BookingCancellation.BookingCancellation" class="method navigator-link" hash-for-method="user_Clicks_on_Bookings">user_Clicks_on_Bookings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Navigation_to_booking_page.NavigationToBookingPage" class="method navigator-link" hash-for-method="user_clicks_on_available_flight_bookings">user_clicks_on_available_flight_bookings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Navigation_to_booking_page.NavigationToBookingPage" class="method navigator-link" hash-for-method="user_clicks_on_available_flight_bookings">user_clicks_on_available_flight_bookings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Payment_Portal.Paymentportal" class="method navigator-link" hash-for-method="user_enters_Payment_credentials">user_enters_Payment_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Payment_Portal.Paymentportal" class="method navigator-link" hash-for-method="user_enters_Payment_credentials">user_enters_Payment_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="BookingCancellation.BookingCancellation" class="method navigator-link" hash-for-method="user_has_made_a_booking(chrome)">user_has_made_a_booking(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Navigation_to_booking_page.NavigationToBookingPage" class="method navigator-link" hash-for-method="user_is_navigated_to_booking_page">user_is_navigated_to_booking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Navigation_to_booking_page.NavigationToBookingPage" class="method navigator-link" hash-for-method="user_is_navigated_to_booking_page">user_is_navigated_to_booking_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Passengers_details.PassengersDetails" class="method navigator-link" hash-for-method="user_is_navigated_to_payment_portal">user_is_navigated_to_payment_portal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Passengers_details.PassengersDetails" class="method navigator-link" hash-for-method="user_is_navigated_to_payment_portal">user_is_navigated_to_payment_portal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Passengers_details.PassengersDetails" class="method navigator-link" hash-for-method="user_is_on_BookingPage(IE)">user_is_on_BookingPage(IE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Passengers_details.PassengersDetails" class="method navigator-link" hash-for-method="user_is_on_BookingPage(chrome)">user_is_on_BookingPage(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Payment_Portal.Paymentportal" class="method navigator-link" hash-for-method="user_is_on_PaymentPage(chrome)">user_is_on_PaymentPage(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Payment_Portal.Paymentportal" class="method navigator-link" hash-for-method="user_is_on_PaymentPage(IE)">user_is_on_PaymentPage(IE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Navigation_to_booking_page.NavigationToBookingPage" class="method navigator-link" hash-for-method="user_is_on_search_page(chrome)">user_is_on_search_page(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Navigation_to_booking_page.NavigationToBookingPage" class="method navigator-link" hash-for-method="user_is_on_search_page(IE)">user_is_on_search_page(IE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Navigation_to_booking_page.NavigationToBookingPage" class="method navigator-link" hash-for-method="user_searches_for_available_flights">user_searches_for_available_flights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Navigation_to_booking_page.NavigationToBookingPage" class="method navigator-link" hash-for-method="user_searches_for_available_flights">user_searches_for_available_flights</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">BookingCancellation.BookingCancellation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicks_cancelReservation_button">
+                  </a> <!-- clicks_cancelReservation_button -->
+                  <span class="method-name">clicks_cancelReservation_button</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74ae076101b5cf30c44ecb189bd74d28, clickElement {id=689c49a0-9659-4829-8407-b3e441d36b57}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59096/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (74ae076101b5cf30c44ecb189bd74d28)] -&gt; xpath: /html/body/div/div/div[2]/div/div[6]/button]
+Session ID: 74ae076101b5cf30c44ecb189bd74d28
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at BookingCancellation.BookingCancellation.clicks_cancelReservation_button(BookingCancellation.java:121)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayed_with_cancelled_message">
+                  </a> <!-- displayed_with_cancelled_message -->
+                  <span class="method-name">displayed_with_cancelled_message</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div/div[2]/p&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74ae076101b5cf30c44ecb189bd74d28, findElement {using=xpath, value=/html/body/div[1]/div/div[2]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:59096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59096/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 74ae076101b5cf30c44ecb189bd74d28
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pageObjects.Cancellation_PO.getNoBookingInfo(Cancellation_PO.java:47)
+	at BookingCancellation.BookingCancellation.displayed_with_cancelled_message(BookingCancellation.java:144)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Navigation_to_booking_page.NavigationToBookingPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_clicks_on_available_flight_bookings">
+                  </a> <!-- user_clicks_on_available_flight_bookings -->
+                  <span class="method-name">user_clicks_on_available_flight_bookings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_clicks_on_available_flight_bookings">
+                  </a> <!-- user_clicks_on_available_flight_bookings -->
+                  <span class="method-name">user_clicks_on_available_flight_bookings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_navigated_to_booking_page">
+                  </a> <!-- user_is_navigated_to_booking_page -->
+                  <span class="method-name">user_is_navigated_to_booking_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_navigated_to_booking_page">
+                  </a> <!-- user_is_navigated_to_booking_page -->
+                  <span class="method-name">user_is_navigated_to_booking_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_on_search_page(chrome)">
+                  </a> <!-- user_is_on_search_page(chrome) -->
+                  <span class="method-name">user_is_on_search_page</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_on_search_page(IE)">
+                  </a> <!-- user_is_on_search_page(IE) -->
+                  <span class="method-name">user_is_on_search_page</span>
+                  <span class="parameters">(IE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_searches_for_available_flights">
+                  </a> <!-- user_searches_for_available_flights -->
+                  <span class="method-name">user_searches_for_available_flights</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_searches_for_available_flights">
+                  </a> <!-- user_searches_for_available_flights -->
+                  <span class="method-name">user_searches_for_available_flights</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Payment_Portal.Paymentportal</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicks_pay_button">
+                  </a> <!-- clicks_pay_button -->
+                  <span class="method-name">clicks_pay_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicks_pay_button">
+                  </a> <!-- clicks_pay_button -->
+                  <span class="method-name">clicks_pay_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayed_with_thankyou_message">
+                  </a> <!-- displayed_with_thankyou_message -->
+                  <span class="method-name">displayed_with_thankyou_message</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayed_with_thankyou_message">
+                  </a> <!-- displayed_with_thankyou_message -->
+                  <span class="method-name">displayed_with_thankyou_message</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_enters_Payment_credentials">
+                  </a> <!-- user_enters_Payment_credentials -->
+                  <span class="method-name">user_enters_Payment_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_enters_Payment_credentials">
+                  </a> <!-- user_enters_Payment_credentials -->
+                  <span class="method-name">user_enters_Payment_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_on_PaymentPage(chrome)">
+                  </a> <!-- user_is_on_PaymentPage(chrome) -->
+                  <span class="method-name">user_is_on_PaymentPage</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_on_PaymentPage(IE)">
+                  </a> <!-- user_is_on_PaymentPage(IE) -->
+                  <span class="method-name">user_is_on_PaymentPage</span>
+                  <span class="parameters">(IE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BookingCancellation.BookingCancellation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_Clicks_on_Bookings">
+                  </a> <!-- user_Clicks_on_Bookings -->
+                  <span class="method-name">user_Clicks_on_Bookings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_has_made_a_booking(chrome)">
+                  </a> <!-- user_has_made_a_booking(chrome) -->
+                  <span class="method-name">user_has_made_a_booking</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Passengers_details.PassengersDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicks_login_button">
+                  </a> <!-- clicks_login_button -->
+                  <span class="method-name">clicks_login_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicks_login_button">
+                  </a> <!-- clicks_login_button -->
+                  <span class="method-name">clicks_login_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enters_number_and_password">
+                  </a> <!-- enters_number_and_password -->
+                  <span class="method-name">enters_number_and_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enters_number_and_password">
+                  </a> <!-- enters_number_and_password -->
+                  <span class="method-name">enters_number_and_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_navigated_to_payment_portal">
+                  </a> <!-- user_is_navigated_to_payment_portal -->
+                  <span class="method-name">user_is_navigated_to_payment_portal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_navigated_to_payment_portal">
+                  </a> <!-- user_is_navigated_to_payment_portal -->
+                  <span class="method-name">user_is_navigated_to_payment_portal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_on_BookingPage(IE)">
+                  </a> <!-- user_is_on_BookingPage(IE) -->
+                  <span class="method-name">user_is_on_BookingPage</span>
+                  <span class="parameters">(IE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_on_BookingPage(chrome)">
+                  </a> <!-- user_is_on_BookingPage(chrome) -->
+                  <span class="method-name">user_is_on_BookingPage</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kaludayk\OneDrive - Capgemini\Documents\A5 hackathob\FlipKart\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;resource.testNgExtentListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;11&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Navigation_to_booking_page.NavigationToBookingPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest1 --&gt;
+  &lt;test thread-count=&quot;11&quot; parallel=&quot;tests&quot; name=&quot;IETest1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Navigation_to_booking_page.NavigationToBookingPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IETest1 --&gt;
+  &lt;test thread-count=&quot;11&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Passengers_details.PassengersDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest2 --&gt;
+  &lt;test thread-count=&quot;11&quot; parallel=&quot;tests&quot; name=&quot;IETest2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Passengers_details.PassengersDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IETest2 --&gt;
+  &lt;test thread-count=&quot;11&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest3&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Payment_Portal.Paymentportal&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest3 --&gt;
+  &lt;test thread-count=&quot;11&quot; parallel=&quot;tests&quot; name=&quot;IETest3&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;IE&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Payment_Portal.Paymentportal&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IETest3 --&gt;
+  &lt;test thread-count=&quot;11&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest4&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BookingCancellation.BookingCancellation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest4 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IETest1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChromeTest2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IETest2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChromeTest3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IETest3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChromeTest4 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'user_is_on_PaymentPage')
+data.setCell(0, 2, 'Payment_Portal.Paymentportal')
+data.setCell(0, 3, 43734);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'user_is_on_BookingPage')
+data.setCell(1, 2, 'Passengers_details.PassengersDetails')
+data.setCell(1, 3, 41686);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'user_is_on_BookingPage')
+data.setCell(2, 2, 'Passengers_details.PassengersDetails')
+data.setCell(2, 3, 41031);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'user_is_on_PaymentPage')
+data.setCell(3, 2, 'Payment_Portal.Paymentportal')
+data.setCell(3, 3, 36286);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'user_has_made_a_booking')
+data.setCell(4, 2, 'BookingCancellation.BookingCancellation')
+data.setCell(4, 3, 34656);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'user_is_on_search_page')
+data.setCell(5, 2, 'Navigation_to_booking_page.NavigationToBookingPage')
+data.setCell(5, 3, 33757);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'user_is_on_search_page')
+data.setCell(6, 2, 'Navigation_to_booking_page.NavigationToBookingPage')
+data.setCell(6, 3, 31024);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'displayed_with_cancelled_message')
+data.setCell(7, 2, 'BookingCancellation.BookingCancellation')
+data.setCell(7, 3, 13067);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'user_searches_for_available_flights')
+data.setCell(8, 2, 'Navigation_to_booking_page.NavigationToBookingPage')
+data.setCell(8, 3, 8956);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'user_searches_for_available_flights')
+data.setCell(9, 2, 'Navigation_to_booking_page.NavigationToBookingPage')
+data.setCell(9, 3, 8866);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'displayed_with_thankyou_message')
+data.setCell(10, 2, 'Payment_Portal.Paymentportal')
+data.setCell(10, 3, 3869);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'displayed_with_thankyou_message')
+data.setCell(11, 2, 'Payment_Portal.Paymentportal')
+data.setCell(11, 3, 3479);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'enters_number_and_password')
+data.setCell(12, 2, 'Passengers_details.PassengersDetails')
+data.setCell(12, 3, 2925);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'enters_number_and_password')
+data.setCell(13, 2, 'Passengers_details.PassengersDetails')
+data.setCell(13, 3, 2869);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'user_enters_Payment_credentials')
+data.setCell(14, 2, 'Payment_Portal.Paymentportal')
+data.setCell(14, 3, 855);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'user_is_navigated_to_payment_portal')
+data.setCell(15, 2, 'Passengers_details.PassengersDetails')
+data.setCell(15, 3, 794);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'user_is_navigated_to_payment_portal')
+data.setCell(16, 2, 'Passengers_details.PassengersDetails')
+data.setCell(16, 3, 783);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'user_is_navigated_to_booking_page')
+data.setCell(17, 2, 'Navigation_to_booking_page.NavigationToBookingPage')
+data.setCell(17, 3, 519);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'user_enters_Payment_credentials')
+data.setCell(18, 2, 'Payment_Portal.Paymentportal')
+data.setCell(18, 3, 515);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'user_is_navigated_to_booking_page')
+data.setCell(19, 2, 'Navigation_to_booking_page.NavigationToBookingPage')
+data.setCell(19, 3, 465);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'user_clicks_on_available_flight_bookings')
+data.setCell(20, 2, 'Navigation_to_booking_page.NavigationToBookingPage')
+data.setCell(20, 3, 266);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'user_Clicks_on_Bookings')
+data.setCell(21, 2, 'BookingCancellation.BookingCancellation')
+data.setCell(21, 3, 266);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'clicks_cancelReservation_button')
+data.setCell(22, 2, 'BookingCancellation.BookingCancellation')
+data.setCell(22, 3, 245);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'user_clicks_on_available_flight_bookings')
+data.setCell(23, 2, 'Navigation_to_booking_page.NavigationToBookingPage')
+data.setCell(23, 3, 238);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'clicks_login_button')
+data.setCell(24, 2, 'Passengers_details.PassengersDetails')
+data.setCell(24, 3, 231);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'clicks_login_button')
+data.setCell(25, 2, 'Passengers_details.PassengersDetails')
+data.setCell(25, 3, 156);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'clicks_pay_button')
+data.setCell(26, 2, 'Payment_Portal.Paymentportal')
+data.setCell(26, 3, 88);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'clicks_pay_button')
+data.setCell(27, 2, 'Payment_Portal.Paymentportal')
+data.setCell(27, 3, 67);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Navigation_to_booking_page.NavigationToBookingPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_is_on_search_page(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Passengers_details.PassengersDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_is_on_BookingPage(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_is_on_BookingPage(IE)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Payment_Portal.Paymentportal</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_is_on_PaymentPage(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Navigation_to_booking_page.NavigationToBookingPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_is_on_search_page(IE)</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_searches_for_available_flights</span>
+                <span class="method-start">31031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_searches_for_available_flights</span>
+                <span class="method-start">33763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_clicks_on_available_flight_bookings</span>
+                <span class="method-start">39899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_is_navigated_to_booking_page</span>
+                <span class="method-start">40166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after_class</span>
+                <span class="method-start">40693 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Passengers_details.PassengersDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">enters_number_and_password</span>
+                <span class="method-start">41044 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Payment_Portal.Paymentportal</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_is_on_PaymentPage(IE)</span>
+                <span class="method-start">41195 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Passengers_details.PassengersDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">enters_number_and_password</span>
+                <span class="method-start">41687 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Navigation_to_booking_page.NavigationToBookingPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_clicks_on_available_flight_bookings</span>
+                <span class="method-start">42738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_is_navigated_to_booking_page</span>
+                <span class="method-start">42982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after_class</span>
+                <span class="method-start">43448 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Payment_Portal.Paymentportal</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_enters_Payment_credentials</span>
+                <span class="method-start">43735 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BookingCancellation.BookingCancellation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_has_made_a_booking(chrome)</span>
+                <span class="method-start">43736 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Passengers_details.PassengersDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clicks_login_button</span>
+                <span class="method-start">43916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_is_navigated_to_payment_portal</span>
+                <span class="method-start">44077 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Payment_Portal.Paymentportal</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clicks_pay_button</span>
+                <span class="method-start">44593 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Passengers_details.PassengersDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clicks_login_button</span>
+                <span class="method-start">44614 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Payment_Portal.Paymentportal</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">displayed_with_thankyou_message</span>
+                <span class="method-start">44683 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Passengers_details.PassengersDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_is_navigated_to_payment_portal</span>
+                <span class="method-start">44846 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Payment_Portal.Paymentportal</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_enters_Payment_credentials</span>
+                <span class="method-start">77485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clicks_pay_button</span>
+                <span class="method-start">78001 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayed_with_thankyou_message</span>
+                <span class="method-start">78070 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">BookingCancellation.BookingCancellation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_Clicks_on_Bookings</span>
+                <span class="method-start">78393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clicks_cancelReservation_button</span>
+                <span class="method-start">78660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">displayed_with_cancelled_message</span>
+                <span class="method-start">78913 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

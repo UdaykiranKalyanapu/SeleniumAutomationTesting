@@ -1,0 +1,53 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import io.cucumber.java.it.Data;
+
+public class LoginSave_PO
+{
+    public WebDriver driver;
+    By login_btn = By.linkText("Login");
+    By Username = By.id("username");
+    By Password = By.id("password");
+
+    By Rememberme = By.xpath("/html/body/div/div/section/div[1]/div/div[2]/form/div[5]/div/input");
+    By login_btn2 = By.cssSelector(".btn");
+
+    By logout_btn = By.xpath("/html/body/div/nav/div/div/div/span");
+
+
+
+    public LoginSave_PO(WebDriver driver)
+    {
+        this.driver = driver;
+    }
+
+    public WebElement getLoginbutton()
+    {
+        return driver.findElement(login_btn);
+    }
+
+    public WebElement getUsernameField()
+    {
+        return driver.findElement(Username);
+    }
+
+    public WebElement getPasswordField()
+    {
+        return driver.findElement(Password);
+    }
+
+    public WebElement getLoginbutton2()
+    {
+        return driver.findElement(login_btn2);
+    }
+public WebElement getRememberme(){
+        return driver.findElement(Rememberme);
+}
+public WebElement getlogout_btn(){
+        return  driver.findElement(logout_btn);
+}
+}
